@@ -68,10 +68,11 @@ L.tileLayer('http://tiles.mapc.org/trailmap-onroad/{z}/{x}/{y}.png',
       return marker;
     }
   }).addTo(map);
-  });
   var clusters = L.markerClusterGroup();
 clusters.addLayer(rodents);
 map.addLayer(clusters);
+  });
+  
   </script>
 </body>
 </html>
